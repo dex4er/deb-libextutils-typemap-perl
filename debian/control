@@ -1,0 +1,23 @@
+Source: libextutils-typemap-perl
+Section: perl
+Priority: optional
+Maintainer: Piotr Roszatycki <dexter@sony-vaio-sve1112m1ep>
+Build-Depends: debhelper (>= 9.20120312)
+Build-Depends-Indep: perl (>= 5.15.1)
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/ExtUtils-Typemap
+
+Package: libextutils-typemap-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ perl (>= 5.15.1)
+Description: Read/Write/Modify Perl/XS typemap files
+ ExtUtils::Typemap exists merely as a compatibility wrapper around
+ ExtUtils::Typemaps. In a nutshell, ExtUtils::Typemap was renamed to
+ ExtUtils::Typemaps because the Typemap directory in lib/ could collide with
+ the typemap file on case-insensitive file systems.
+ .
+ The ExtUtils::Typemaps module is part of the ExtUtils::ParseXS distribution
+ and ships with the standard library of perl starting with perl version 5.16.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
