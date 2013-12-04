@@ -3,7 +3,7 @@ before_install:
   - sudo apt-get update -qq
 install:
   - sudo apt-get install -qq git-buildpackage
-  - sudo apt-get install -qq debhelper perl
+  - sudo apt-get install -qq debhelper libextutils-parsexs-perl
 before_script:
   - git fetch origin +upstream:upstream
   - git fetch origin +pristine-tar:pristine-tar
