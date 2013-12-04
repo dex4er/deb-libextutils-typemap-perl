@@ -3,6 +3,7 @@ Section: perl
 Priority: optional
 Maintainer: Piotr Roszatycki <dexter@debian.org>
 Build-Depends: debhelper
+Build-Depends-Indep: libextutils-parsexs-perl
 Standards-Version: 3.9.5
 Homepage: https://metacpan.org/release/ExtUtils-Typemap
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libextutils-typemap-perl.git
@@ -10,7 +11,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libextutils-typemap-perl.git
 
 Package: libextutils-typemap-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends},
+         libextutils-parsexs-perl
 Description: ExtUtils::Typemap - Read/Write/Modify Perl/XS typemap files
  ExtUtils::Typemap exists merely as a compatibility wrapper
  around ExtUtils::Typemaps. In a nutshell, ExtUtils::Typemap was renamed to
