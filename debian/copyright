@@ -2,21 +2,13 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Source: https://metacpan.org/release/ExtUtils-Typemap
 Upstream-Contact: Steffen Mueller <smueller@cpan.org>
 Upstream-Name: ExtUtils-Typemap
-DISCLAIMER: This copyright info was automatically extracted 
- from the perl module. It may not be accurate, so you better 
- check the module sources in order to ensure the module for its 
- inclusion in Debian or for general legal information. Please, 
- if licensing information is incorrectly generated, file a bug 
- on dh-make-perl.
- NOTE: Don't forget to remove this disclaimer once you are happy
- with this file.
 
 Files: *
-Copyright: Steffen Mueller <smueller@cpan.org>
-License: 
+Copyright: 2009, 2010, 2011 Steffen Mueller
+License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2013, Piotr Roszatycki <dexter@sony-vaio-sve1112m1ep>
+Copyright: 2013, Piotr Roszatycki <dexter@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic

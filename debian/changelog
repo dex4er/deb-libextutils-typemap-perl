@@ -2,4 +2,4 @@ libextutils-typemap-perl (1.00-1) unstable; urgency=low
 
   * Initial Release.
 
- -- Piotr Roszatycki <dexter@sony-vaio-sve1112m1ep>  Wed, 4 Dec 2013 19:53:22 +0100
+ -- Piotr Roszatycki <dexter@debian.org>  Wed, 4 Dec 2013 19:53:22 +0100
