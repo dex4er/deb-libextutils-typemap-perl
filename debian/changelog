@@ -1,5 +1,5 @@
 libextutils-typemap-perl (1.00-1) unstable; urgency=low
 
-  * Initial Release.
+  * Initial Release. Closes: #731376.
 
  -- Piotr Roszatycki <dexter@debian.org>  Wed, 4 Dec 2013 19:53:22 +0100
